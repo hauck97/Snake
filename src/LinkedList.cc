@@ -231,11 +231,15 @@ std::vector<value_type_t>* pushNode(list_t *list, node_t *node, uint32_t idx)
     if (0u == idx)
     {
         pushFront(list, node);
+        std::vector<value_type_t>* coords = new std::vector<value_type_t>();
+        return coords;
     }
 
     if (list->size - 1u == idx)
     {
         pushBack(list, node);
+        std::vector<value_type_t>* coords = new std::vector<value_type_t>();
+        return coords;
     }
 
     uint32_t current_idx = 0u;

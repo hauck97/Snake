@@ -10,36 +10,6 @@ extern std::vector<int> snakePosition;
 
 int main()
 {
-    // list_t *list = createList();
-
-    // node_t *a = createNode(2, 3);
-    // node_t *b = createNode(5,43);
-    // node_t *c = createNode(59,23);
-    // node_t *d = createNode(323,323);
-    // node_t *f = createNode(222, 222);
-
-    // pushBack(list, a);
-    // pushBack(list, b);
-    // pushBack(list, c);
-    // pushBack(list, d);
-
-    // printList(list);
-
-    // pushNode(list, f, 1);
-    // std::cout << list->size << std::endl;
-    // std::cout << *(f->coords->at(0)) << " " << *(f->coords->at(1)) << std::endl;
-    // printList(list);
-
-
-    // popBack(list);
-    // popBack(list);
-    // popBack(list);
-    // popBack(list);
-
-    // list = freeList(list);
-
-    // assert(NULL == list);
-
     initscr();
     cbreak();
     noecho();
@@ -70,7 +40,6 @@ int main()
     }
 
     endwin();
-
 
 	return 0;
 }
